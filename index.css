@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#kgl {
+    width: 100%;
+}
+
+.nav {
+    height: 20px;
+    background-color: white;
+    font-size: 20px;
+    width: 100%;
+}
+
+.nav img {
+    margin-left: 200px;
+    margin-right: 300px;
+    height: 20px;
+}
+
+.layui-carousel {
+    width: 100%!important;
+    margin-top: 40px;
+}
+
+.layui-nav {
+    width: 100%;
+}
+
+.layui-nav img {
+    height: 60px;
+    width: 400px;
+}
+
+.layui-nav:first-child span {
+    font-size: 25px;
+}
+
+@media screen and (min-width:900px) {
+    .layui-carousel {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width:750px) {}
+
+@media (max-width:750px) {
+    .foot {
+        height: 500px!important;
+    }
+    .nav {
+        width: 100%;
+    }
+}
+
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+
+@media (min-width:970px) {}
+
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+
+@media (min-width:1170px) {}
+
+.company_about {
+    width: 100%;
+    height: 360px;
+    background: url(https://1.rc.xiniu.com/rc/Contents/40356/images/index_cnt_m_about.jpg?d=20180115150601438) no-repeat center;
+}
+
+.company_about_img {
+    width: 393px;
+    height: 235px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 300px;
+}
+
+.company_about_img img {
+    width: 100%;
+}
+
+.company_about_td {
+    word-break: break-all;
+    font-size: 15px;
+    color: #555555;
+    line-height: 30px;
+}
+
+.company_about_tt {
+    line-height: 50px;
+    margin: 50px 0 15px;
+    color: #333333;
+    text-align: left;
+}
+
+.company_about_tt p {
+    font-size: 2.7em;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.company_about_t {
+    width: 678px;
+    float: left;
+    margin-left: 300px;
+}
+
+.language {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background: #FFBF00;
+    right: 137px;
+    top: 15px;
+}
+
+.language a {
+    color: #fff;
+    margin-left: 5px;
+}
+
+.language a:hover {
+    cursor: pointer;
+}
+
+.ability h3,
+.service h3,
+.sample h3 {
+    color: #333333;
+    font-size: 2.7em;
+    margin-left: 46%;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 40px;
+}
+
+.foot {
+    background: #1e9fff;
+    height: 250px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.foot_copy {
+    width: 100%;
+}
+
+.foot_copy span {
+    margin-left: 45%;
+}
+
+.clearfix::after {
+    clear: both;
+    display: block;
+    height: 0;
+    content: '';
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+#container {
+    width: 816px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#container li {
+    position: relative;
+    width: 230px;
+    box-shadow: 10px 10px 20px #aaaaaa;
+    height: 230px;
+    line-height: 150px;
+    text-align: center;
+    margin: 20px;
+    float: left;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+#container li p {
+    height: 230px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -230px;
+    color: #ffffff;
+    z-index: 2;
+}
+
+#container li .img {
+    width: 230px;
+    height: 230px;
+    display: block;
+    -moz-transition: .5s ease-in;
+    -webkit-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+    transition: .5s ease-in;
+}
+
+#container li:hover .img {
+    transform: scale(1.1, 1.1);
+    -moz-transform: scale(1.1, 1.1);
+    -webkit-transform: scale(1.1, 1.1);
+    -o-transform: scale(1.1, 1.1)
+}
+
+#container li p i {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    background: #08acee;
+    opacity: 0.9;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity=70);
+    font-size: 16px;
+}
+
+#container li p span {
+    display: block;
+    width: 94%;
+    margin: 0 auto;
+    line-height: 24px;
+    font-size: 20px;
+    padding-top: 100px;
+    color: #fff;
+}
+
+#container li p a {
+    display: block;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 50%;
+    margin-left: -16px;
+    top: 20px;
+}
+
+.explain {
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.foot_name,
+.foot_add,
+.foot_tel {
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.foot_add {
+    font-size: 14px;
+}
+
+.foot_name {
+    font-size: 22px;
+}
+
+.foot_copy {
+    font-size: 12px;
+}
+
+.swiper-slide img {
+    width: 230px;
+    height: 500px;
+}
